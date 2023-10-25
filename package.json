@@ -1,0 +1,22 @@
+{
+  "name": "irevolution-tech-test",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "count": "tsc src/index.ts && node src/index.js data/input.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.9"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
